@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
       { 'src': 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a1myparents.png', 'description': 'My parents' },
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a2theyoungestones0-6yearsold.png', 'description': 'The youngest ones (0-6 years old)' },
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a8theolderchildren.png', 'description': 'The older children (10-19 years old)' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/dla-drugiej-osoby.png', 'description': 'My other half' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/dla-drugiej-osoby.png', 'description': 'My other half' },
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a4auntiesanduncles.png', 'description': 'Aunties and uncles' },
-      { 'src':'/Aplikacja-do-prezetow/imagesApp/mkbewe__kapitan_bomba__by_rebus2077_dixzs6w.png', 'description': 'My brothers or sisters' },
-      { 'src':  '/Aplikacja-do-prezetow/imagesApp/tytus.png', 'description': 'My friends' },
+      { 'src':'./Aplikacja-do-prezetow/imagesApp/mkbewe__kapitan_bomba__by_rebus2077_dixzs6w.png', 'description': 'My brothers or sisters' },
+      { 'src':  './Aplikacja-do-prezetow/imagesApp/tytus.png', 'description': 'My friends' },
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a6thegrandparents.png', 'description': 'The grandparents' }
     ];
     headline.classList.add('hidden');
@@ -97,11 +97,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     ];
 
     const imgCategoris = [
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q2a1somethingspecialthatcapturesallourmemoriestogether.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q2a2asmallergifttogowiththemainone.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q2a3somethingcreative.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q2a4somethingpersonal.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q2a5somethingdecorative.png' }
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q2a1somethingspecialthatcapturesallourmemoriestogether.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q2a2asmallergifttogowiththemainone.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q2a3somethingcreative.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q2a4somethingpersonal.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q2a5somethingdecorative.png' }
     ];
 
     categories.forEach((category, index) => {
@@ -145,10 +145,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     ];
 
     const priceImg = [
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/kurvinox.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q3a2around25.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q3a3max60.png' },
-      { 'src': '/Aplikacja-do-prezetow/imagesApp/q3a4nobudget.png' }
+      { 'src': './Aplikacja-do-prezetow/imagesApp/kurvinox.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q3a2around25.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q3a3max60.png' },
+      { 'src': './Aplikacja-do-prezetow/imagesApp/q3a4nobudget.png' }
     ];
 
     prices.forEach((price, index) => {
@@ -186,9 +186,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     productChoicesDiv.className = 'question__answers question__answers--products';
 
     const products = [
-      { recipient: 'My parents', category: 'Coś specjalnego, co uchwyci wszystkie nasze wspólne wspomnienia', price: 'Biednie', src: '/Aplikacja-do-prezetow/imagesApp/tytus.png', description: 'Produkt 1', link:"https://www.cewe.pl" },
-      { recipient: 'My parents', category: 'Electronics', price: 'skromnie', src: '/Aplikacja-do-prezetow/imagesApp/product2.png', description: 'Produkt 2' },
-      { recipient: 'My parents', category: 'Books', price: '#CEWE', src: '/Aplikacja-do-prezetow/imagesApp/product3.png', description: 'Produkt 3' }
+      { recipient: 'My parents', category: 'Coś specjalnego, co uchwyci wszystkie nasze wspólne wspomnienia', price: 'Biednie', src: './Aplikacja-do-prezetow/imagesApp/tytus.png', description: 'Produkt 1', link:"https://www.cewe.pl" },
+      { recipient: 'My parents', category: 'Electronics', price: 'skromnie', src: './Aplikacja-do-prezetow/imagesApp/product2.png', description: 'Produkt 2' },
+      { recipient: 'My parents', category: 'Books', price: '#CEWE', src: './Aplikacja-do-prezetow/imagesApp/product3.png', description: 'Produkt 3' }
     ];
 
     const filteredProducts = products.filter(product =>
