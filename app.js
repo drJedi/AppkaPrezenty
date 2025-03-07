@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a8theolderchildren.png', 'description': 'The older children (10-19 years old)' },
       { 'src': 'imagesApp/dla-drugiej-osoby.png', 'description': 'My other half' },
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a4auntiesanduncles.png', 'description': 'Aunties and uncles' },
-      { 'src': 'imagesApp/tytus.png', 'description': 'My brothers or sisters' },
+      { 'src': 'imagesApp/mkbewe.png', 'description': 'My brothers or sisters' },
       { 'src': 'imagesApp/tytus.png', 'description': 'My friends' },
       { 'src': url + '/files/4649/Gift_Finder_Updates_2023/Question1/q1a6thegrandparents.png', 'description': 'The grandparents' }
     ];
