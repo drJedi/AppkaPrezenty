@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+    .centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .button {
+      background-color: red;
+      color: #FFF;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .question__answers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .question__image, .question__category, .question__price, .question__product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      cursor: pointer;
+      padding: 10px;
+      transition: border-color 0.2s;
+    }
+    .question__image:hover, .question__category:hover, .question__price:hover, .question__product:hover {
+      border: 2px solid gray;
+    }
+    .question__answer-item {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <section class="sg-cw-section-has-heading sg-cw-section-bg-light sg-cw-section sg-cw-section-magazintext centered">
+    <div id="" class="sg-cw-section-heading centered">
+      <div class="sg-cw-section-heading-content">
+        <h2 class="sg-cw-section-heading-headline">Znajdź idealny prezent dla ukochanej osoby</h2>
+        <div class="sg-cw-section-heading-subline">Podaruj wyjątkowy, spersonalizowany prezent, niepodobny do żadnego innego</div>
+        <div class="sg-cw-section-heading-cta">
+          <div class="sg-cw-section-heading-cta-content centered"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sg-cw-row">
+      <div class="sg-cw-col">
+        <div class="sg-cw-magazine-textarea-text centered"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
