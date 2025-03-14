@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const normalizedProduct = normalizeText(product.toLowerCase()); // Normalizujemy nazwę produktu
             return {
                 name: product,
-                src: `./${prefix}_${normalizedProduct}.jpg`
+                src: `./imagesApp/${prefix}_${normalizedProduct}.jpg`
             };
         });
     }
@@ -152,10 +152,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a1myparents.png', description: 'My parents' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a2theyoungestones0-6yearsold.png', description: 'The youngest ones (0-6 years old)' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a8theolderchildren.png', description: 'The older children (10-19 years old)' },
-        { src: './imagesApp/dla-drugiej-osoby.png', description: 'My other half' },
+        { src: './dla-drugiej-osoby.png', description: 'My other half' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a4auntiesanduncles.png', description: 'Aunties and uncles' },
-        { src: './imagesApp/mkbewe__kapitan_bomba__by_rebus2077_dixzs6w.png', description: 'My brothers or sisters' },
-        { src: './imagesApp/tytus.png', description: 'My friends' },
+        { src: './mkbewe__kapitan_bomba__by_rebus2077_dixzs6w.png', description: 'My brothers or sisters' },
+        { src: './tytus.png', description: 'My friends' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a6thegrandparents.png', description: 'The grandparents' }
       ];
   
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
         const img = document.createElement('img');
         img.className = 'question__answer-item';
-        img.src = `./${categoryImageMap[category]}`;
+        img.src = `./imagesApp/${categoryImageMap[category]}`;
         img.alt = category;
         // console.log(img.src);
         
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
         const img = document.createElement('img');
         img.className = 'question__answer-item';
-        img.src = `./${priceImageMap[price]}`;
+        img.src = `./imagesApp/${priceImageMap[price]}`;
         img.alt = price;
         console.log(img.src);
         
