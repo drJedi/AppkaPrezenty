@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const normalizedProduct = normalizeText(product.toLowerCase()); // Normalizujemy nazwę produktu
             return {
                 name: product,
-                src: `/Aplikacja-do-prezetow/imagesApp/${prefix}_${normalizedProduct}.jpg`
+                src: `/${prefix}_${normalizedProduct}.jpg`
             };
         });
     }
