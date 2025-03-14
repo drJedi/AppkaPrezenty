@@ -152,10 +152,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a1myparents.png', description: 'My parents' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a2theyoungestones0-6yearsold.png', description: 'The youngest ones (0-6 years old)' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a8theolderchildren.png', description: 'The older children (10-19 years old)' },
-        { src: 'dla-drugiej-osoby.png', description: 'My other half' },
+        { src: './dla-drugiej-osoby.png', description: 'My other half' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a4auntiesanduncles.png', description: 'Aunties and uncles' },
-        { src: 'mkbewe__kapitan_bomba__by_rebus2077_dixzs6w.png', description: 'My brothers or sisters' },
-        { src: 'tytus.png', description: 'My friends' },
+        { src: './mkbewe__kapitan_bomba__by_rebus2077_dixzs6w.png', description: 'My brothers or sisters' },
+        { src: './tytus.png', description: 'My friends' },
         { src: 'https://cewe-uk.leadfamly.com/files/4649/Gift_Finder_Updates_2023/Question1/q1a6thegrandparents.png', description: 'The grandparents' }
       ];
   
