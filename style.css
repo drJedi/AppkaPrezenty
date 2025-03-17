@@ -1,0 +1,163 @@
+
+    @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10% { transform: translateX(-5px); }
+    20% { transform: translateX(5px); }
+    30% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    50% { transform: translateX(0); } /* Zakończenie animacji */
+}
+/* @keyframes bounce-in-bck {
+  0% {
+    transform: scale(7);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: scale(1.5);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: scale(1.24);
+    animation-timing-function: ease-in;
+  }
+  89% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: scale(1.04);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+} */
+    .hidden {
+      display: none;
+    }
+    .centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    p{
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .button {
+      background-color: red;
+      color: #FFF;
+      padding: 10px 20px;
+      margin: 1.2rem;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.3s;
+      /* animation: shake 2s ease-in-out infinite;
+      animation-delay: 9s;
+      animation-iteration-count: infinite; */
+      /* animation: bounce-in-bck 1.1s both; */
+    }
+    
+    .button:hover {
+      background-color: darkred;
+      transform: scale(1.15);
+    }
+    .question__answers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .question__image, .question__category, .question__price, .question__product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;  /* Tekst wycentrowany */
+      margin: 10px;
+      cursor: pointer;
+      padding: 10px;
+      border: 2px solid transparent;
+      transition: border-color 0.2s, transform 0.3s;
+      max-width: 150px; /* Maksymalna szerokość dla ograniczenia tekstu */
+      word-wrap: break-word; /* Zawijanie długich słów */
+      word-break: break-word; /* Zawijanie linii dla długich słów */
+    }
+    .question__image:hover, .question__category:hover, .question__price:hover, .question__product:hover {
+      border: 2px solid gray;
+      transform: scale(1.05);
+    }
+    .question__answer-item {
+      width: 100px;
+      height: 100px;
+      transition: transform 0.3s;
+    }
+    .question__answer-item:hover {
+      transform: scale(1.2);
+    }
+    .question__additional-description {
+      text-align: center; /* Tekst wycentrowany */
+      overflow-wrap: break-word; /* Zawijanie długich słów */
+      margin-top: 10px; /* Dodatkowy margines między obrazem a tekstem */
+    }
+/* Animacja pojawiania się */
+/* Animacja pojawiania się */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px); /* Element zaczyna lekko poniżej */
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  /* Animacja ukrywania */
+  .fade-out {
+    opacity: 1;
+    transform: translateY(0); /* Element jest na swoim miejscu */
+    animation: fadeOut 0.5s ease forwards;
+  }
+  
+  /* Definicja animacji pojawiania się */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Element wraca na swoje miejsce */
+    }
+  }
+  
+  /* Definicja animacji ukrywania */
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(-20px); /* Element przesuwa się lekko w górę */
+    }
+  }
+  /* .question__image {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+} */
+
+/* Klasa początkowa (element ukryty) */
+/* .hidden {
+    opacity: 0;
+    transform: translateY(15px);
+} */
+
+/* Klasa końcowa (pojawienie się) */
+/* .visible {
+    opacity: 1;
+    transform: translateY(0);
+} */
